@@ -4,8 +4,18 @@ body {
   margin-top: 50px;
 }
 
+button {
+  margin: 5px;
+  padding: 10px 15px;
+  font-size: 16px;
+}
+
 button:disabled {
   background-color: gray;
   color: white;
   cursor: not-allowed;
+}
+
+form {
+  margin-top: 20px;
 }
